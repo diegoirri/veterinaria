@@ -1,0 +1,80 @@
+body{
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+  #ribbon{
+    background-color: #fdbb2d;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131,21,21,0.5) 40px);
+  }  
+  #ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+  }
+
+  #birthday{
+    background-color: rgb(219, 26, 26);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+  }
+
+  #birthday img{
+    position: relative;
+    margin-top: -30px;
+  }
+  .text-shadow{
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 6);
+  }
+
+#separator-ribbon .content{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#separator-ribbon .content{
+  width: 150%;
+  height: 50px;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo{
+  color: white;
+  color: azure;
+  justify-content: center;
+  text-align:justify;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+.mision{
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  justify-content: center;
+  text-align:justify;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card-group{
+  justify-content: center;
+}
